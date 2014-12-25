@@ -1,6 +1,8 @@
 MEAN Grunt BOILERPLATE 
 ===========================
-![MEAN development](https://github.com/jamding/MEAN_GRUNT_Boilerplate/meanstack.jpg)
+![MEAN development](https://github.com/jamding/MEAN_GRUNT_Boilerplate/blob/master/meanstack.jpg)
+
+
 1. Specify MONGO host in /config/db.js
 2. npm install
 3. bower
