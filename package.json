@@ -2,10 +2,11 @@
   "name": "starter-node-angular",
   "main": "server.js",
   "dependencies": {
-	"express" : "latest",
-	"mongoose" : "latest",
-	"body-parser" : "latest",
-	"method-override" : "latest"        
+    "body-parser": "latest",
+    "express": "latest",
+    "glob": "^4.3.5",
+    "method-override": "latest",
+    "mongoose": "latest"
   },
   "devDependencies": {
     "grunt": "latest",

@@ -1,4 +1,8 @@
-var Nerd = require('./models/nerd');
+var glob = require('glob');
+var models = glob.sync(__dirname + '/models/*.js');
+models.forEach(function (model) {
+  require(model);
+});
 
 module.exports = function(app) {
 	app.get('/api/nerds', function(req, res) {
